@@ -3,7 +3,7 @@
 //  Bankey
 //
 //  Created by Ivan Posavac on 14.02.2023..
-//
+//test
 
 import UIKit
 
@@ -40,7 +40,7 @@ extension LoginViewController {
         header.font = UIFont(name: header.font.fontName, size: 35)
         
         desc.translatesAutoresizingMaskIntoConstraints = false
-        desc.text = "Ovo je opis"
+        desc.text = "Your premium source for all things banking!"
         desc.textAlignment = .center
         desc.numberOfLines = 0
         desc.textColor = .black
