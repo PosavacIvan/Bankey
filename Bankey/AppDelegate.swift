@@ -11,7 +11,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    
+    var hasOnboarded = false
     let loginViewController = LoginViewController()
     let onboardingContainerViewController = OnboardingContainerViewController()
     let dummyViewController = DummyViewController()
@@ -55,7 +55,7 @@ extension AppDelegate {
 extension AppDelegate: LoginViewControllerDelegate {
     func didLogin() {
         print("foo - Did login")
-        if LocalState.hasOnboarded {
+        if hasOnboarded {
             setRootController(dummyViewController)
         } else {
             //pozivamo funkciju da napravi tranziciju i kao vrijednost stavljamo ekran na koji da se tranzicija uradi
@@ -68,7 +68,7 @@ extension AppDelegate: LoginViewControllerDelegate {
 extension AppDelegate: OnboardingContainerViewControllerDelegate {
     func didFinishOnboarding() {
         print("foo - Did finish onboarding")
-        LocalState.hasOnboarded = true
+        hasOnboarded = true
         setRootController(dummyViewController)
     }
 }

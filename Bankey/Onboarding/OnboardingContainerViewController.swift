@@ -32,10 +32,12 @@ class OnboardingContainerViewController: UIViewController {
         let page1 = OnboardingViewController(heroImageName: "delorean", titleText: "Bankey is faster, easier to use, and has a brand new look and feel that will make yoyu feel like you are back in the 80s.")
         let page2 = OnboardingViewController(heroImageName: "world", titleText: "Move your money around the workd quickly and securely.")
         let page3 = OnboardingViewController(heroImageName: "thumbs", titleText: "Learn more at www.bankey.com.")
+        let page4 = OnboardingViewController(heroImageName: "fuck", titleText: "Doso si do kraja onboarding sad se jebi ;)")
         
         pages.append(page1)
         pages.append(page2)
         pages.append(page3)
+        pages.append(page4)
         
         currentVC = pages.first!
         
