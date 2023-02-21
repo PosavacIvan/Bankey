@@ -11,6 +11,8 @@
 		59229A2A29A3CBF900F2B937 /* LocaleState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59229A2929A3CBF900F2B937 /* LocaleState.swift */; };
 		59C6EE71299FDA6F003C6C4B /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C6EE70299FDA6F003C6C4B /* OnboardingContainerViewController.swift */; };
 		59C6EE73299FDFFC003C6C4B /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C6EE72299FDFFC003C6C4B /* OnboardingViewController.swift */; };
+		59E15A3E29A4E3BC00CBAEF4 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E15A3D29A4E3BC00CBAEF4 /* UIViewController+Utils.swift */; };
+		59E15A4029A4E52500CBAEF4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E15A3F29A4E52500CBAEF4 /* MainViewController.swift */; };
 		59E66045299BC19F0031D7B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E66044299BC19F0031D7B6 /* AppDelegate.swift */; };
 		59E66049299BC19F0031D7B6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E66048299BC19F0031D7B6 /* LoginViewController.swift */; };
 		59E6604E299BC1A00031D7B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59E6604D299BC1A00031D7B6 /* Assets.xcassets */; };
@@ -43,6 +45,8 @@
 		59229A2929A3CBF900F2B937 /* LocaleState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleState.swift; sourceTree = "<group>"; };
 		59C6EE70299FDA6F003C6C4B /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
 		59C6EE72299FDFFC003C6C4B /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		59E15A3D29A4E3BC00CBAEF4 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		59E15A3F29A4E52500CBAEF4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		59E66041299BC19F0031D7B6 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E66044299BC19F0031D7B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59E66048299BC19F0031D7B6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				59229A2929A3CBF900F2B937 /* LocaleState.swift */,
+				59E15A3D29A4E3BC00CBAEF4 /* UIViewController+Utils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -122,10 +127,10 @@
 		59E66043299BC19F0031D7B6 /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
-				59229A2829A3CBE900F2B937 /* Utils */,
 				59E66074299BC4900031D7B6 /* Files */,
-				59C6EE6F299FDA41003C6C4B /* Onboarding */,
+				59229A2829A3CBE900F2B937 /* Utils */,
 				59E66075299BC4DB0031D7B6 /* Login */,
+				59C6EE6F299FDA41003C6C4B /* Onboarding */,
 			);
 			path = Bankey;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				59E6604D299BC1A00031D7B6 /* Assets.xcassets */,
 				59E6604F299BC1A00031D7B6 /* LaunchScreen.storyboard */,
 				59E66052299BC1A00031D7B6 /* Info.plist */,
+				59E15A3F29A4E52500CBAEF4 /* MainViewController.swift */,
 			);
 			name = Files;
 			sourceTree = "<group>";
@@ -319,11 +325,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59E15A3E29A4E3BC00CBAEF4 /* UIViewController+Utils.swift in Sources */,
 				59E66077299BC5060031D7B6 /* LoginView.swift in Sources */,
 				59229A2729A3C26C00F2B937 /* DummyViewController.swift in Sources */,
 				59229A2A29A3CBF900F2B937 /* LocaleState.swift in Sources */,
 				59E66049299BC19F0031D7B6 /* LoginViewController.swift in Sources */,
 				59C6EE73299FDFFC003C6C4B /* OnboardingViewController.swift in Sources */,
+				59E15A4029A4E52500CBAEF4 /* MainViewController.swift in Sources */,
 				59E66045299BC19F0031D7B6 /* AppDelegate.swift in Sources */,
 				59C6EE71299FDA6F003C6C4B /* OnboardingContainerViewController.swift in Sources */,
 			);
