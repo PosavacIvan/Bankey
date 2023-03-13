@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59AE074129BF7ABB00ACA86A /* NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AE074029BF7ABB00ACA86A /* NSNotificationName.swift */; };
 		711F1FA5273BEAAD00381912 /* CurrencyFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711F1FA4273BEAAD00381912 /* CurrencyFormatterTests.swift */; };
 		71267A932734139500DC0F8B /* AccountSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71267A922734139500DC0F8B /* AccountSummaryCell.swift */; };
 		713845772729784700E5E07C /* AccountSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713845762729784700E5E07C /* AccountSummaryViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		59AE074029BF7ABB00ACA86A /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
 		711F1F9B273BE94B00381912 /* BankeyUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankeyUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		711F1FA4273BEAAD00381912 /* CurrencyFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatterTests.swift; sourceTree = "<group>"; };
 		71267A922734139500DC0F8B /* AccountSummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryCell.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 				71EA3CF82724662500B12DE6 /* UIViewController+Utils.swift */,
 				71C88F822739588D00822B33 /* DecimalUtils.swift */,
 				71C88F84273958F700822B33 /* CurencyFormatter.swift */,
+				59AE074029BF7ABB00ACA86A /* NSNotificationName.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				713D9FFF270F216F00193EE6 /* DummyViewController.swift in Sources */,
 				71C88F832739588D00822B33 /* DecimalUtils.swift in Sources */,
 				71C88F85273958F700822B33 /* CurencyFormatter.swift in Sources */,
+				59AE074129BF7ABB00ACA86A /* NSNotificationName.swift in Sources */,
 				71A0F7C426FD2B75008EAFD8 /* AppDelegate.swift in Sources */,
 				71267A932734139500DC0F8B /* AccountSummaryCell.swift in Sources */,
 				71A0F7D826FD2BBA008EAFD8 /* LoginView.swift in Sources */,
@@ -505,6 +509,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B9P57CT99D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Bankey/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -516,7 +521,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rsc.Bankey;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bankey.IvanPosavac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -531,6 +536,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B9P57CT99D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Bankey/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -542,7 +548,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rsc.Bankey;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bankey.IvanPosavac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

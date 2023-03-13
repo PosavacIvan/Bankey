@@ -26,8 +26,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         loginViewController.delegate = self
         onboardingViewController.delegate = self
         
+        registerForNotification()
+        
         displayLogin()
         return true
+    }
+    //Trazimo notifikaciju za logout kada dobijemo da se pritisnuo gumb za logout salje se notifikacija koja pokrece funkciju logout koja je navedena u selectoru
+    private func registerForNotification () {
+        NotificationCenter.default.addObserver(self, selector: #selector(didLogout), name: .logout, object: nil)
     }
     
     private func displayLogin() {
@@ -83,7 +89,7 @@ extension AppDelegate: OnboardingContainerViewControllerDelegate {
 }
 
 extension AppDelegate: LogoutDelegate {
-    func didLogout() {
+    @objc func didLogout() {
         setRootViewController(loginViewController)
     }
 }
